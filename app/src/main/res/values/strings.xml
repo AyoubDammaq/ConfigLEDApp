@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">configLED</string>
+    <string name="connect_to_esp32_via_wifi" />
+    <string name="connect_to_esp32_via_bluetooth">\n</string>
+    <string name="led_1" />
+    <string name="add_led" />
+    <string name="on" />
+    <string name="led_2" />
+    <string name="off" />
+    <string name="led_3" />
+    <string name="wifi_connect_button_description" />
+</resources>

@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/wifiConnectButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Connect to esp32 via WiFi"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/bluetoothConnectButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Connect to esp32 via Bluetooth"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/addLedButton"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Add LED"
+            tools:ignore="VisualLintButtonSize" />
+
+        <LinearLayout
+            android:id="@+id/containerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
